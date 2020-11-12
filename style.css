@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg1.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+    position: absolute;
+    top:-10px;
+    left: -55px;
+	width: 120px;
+	height: 70px;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(255, 179, 65);
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+    font-weight: bold;
+	color: rgba(0,0,0,0.4); ;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: black;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+#tekst {
+    position: absolute;
+    top: 160px;
+    left: 440px;
+    height: 260px;
+    width: 400px;
+    padding-left: 20px;
+    background-color: transparent;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: black;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    }
+    #title2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    border-bottom: 5px solid white;
+    }
+
+    .box{
+        position: absolute;
+        top:73px;
+        left:410px;
+        width: 450px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        font-family: 'Century Gothic',sans-serif;
+      }
+      .box-img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+      }
+      .box h1{
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing: 4px;
+        
+      }
+      .box h5{
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 100;
+      }
+      .box p{
+        text-align: justify;
+      }
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      .box li{
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+      }
+      .box li a{
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        transition: all ease-in-out 250ms;
+      }
+      .box li a:hover{
+        color: #b9b9b9;
+      }
+      .button5{
+        background: rgb(255, 179, 65);
+        height: 10px;  
+      }      
+      @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.ourteam{
+ position: absolute;
+ top:105px;
+ left:185px;
+}
+
+.ourteam h1{
+  font-family: 'Allura', cursive;
+  color: black;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: black;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
