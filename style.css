@@ -291,9 +291,9 @@ textarea {
 }
 
 .input-container {
-    position: absolute;
-    left:600px;
-    top:154px;
+    position: relative;
+    left:280px;
+    top:4px;
     width: 650px;
     max-width: 100%;
     margin: 20px auto 25px auto;
@@ -319,8 +319,8 @@ input[type=checkbox] + label {
 } 
 
 h4 {
-    position: absolute;
-    top:130px;
+    position: relative;
+    top:30px;
     left:820px;
     font-family: 'Roboto', sans-serif, 'arial';
     font-size: 40px;
