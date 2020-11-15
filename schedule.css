@@ -11,7 +11,7 @@
 	height: 155vh;
 }
 .navbar{
-	position: fixed;
+	position: relative;
 	height: 80px;
 	width: 100%;
 	top: 0;
@@ -362,7 +362,7 @@ h4 {
   .event-container {
       position: absolute;
       top:100px;
-      left:200px;
+      left:245px;
     font-family: "Roboto", sans-serif;
     max-width: 800px;
     margin: 0 auto;
